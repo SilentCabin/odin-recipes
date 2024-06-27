@@ -1,12 +1,15 @@
 body{
     background-color: lightblue;
 }
+p {
+    text-align: center;
+}
 
-h1 {
+h1, h2{
     font-family: fantasy;
     color: navy;
     text-align: center;
-
+    
 }
 
 ul {
@@ -18,10 +21,24 @@ ul {
 li {
     background-color: aliceblue;
     text-align: left ;
+
 }
 
 a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: darkorange;
     font-weight: 700;
+}
+
+img{
+    height: auto;
+    width: 300px;
+}
+
+ol {
+    
+    list-style-type: armenian;
+    background-color: darkorange;
+    text-align: center;
+    
 }
