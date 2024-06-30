@@ -12,13 +12,12 @@ h1, h2{
     
 }
 
-ul {
+ul.main-list {
     list-style-type: circle;
     background-color: darkorange;
-    text-align: center;
 }
 
-li {
+.main-list li {
     background-color: aliceblue;
     text-align: left ;
 
