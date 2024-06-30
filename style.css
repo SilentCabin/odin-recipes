@@ -23,6 +23,17 @@ ul.main-list {
 
 }
 
+ul {
+    list-style-type: circle;
+    background-color: darkorange;
+}
+
+ li {
+    background-color: aliceblue;
+    text-align: left ;
+
+}
+
 a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: darkorange;
