@@ -7,8 +7,12 @@ p {
     text-align: center;
 }
 .header{
-    margin-left: 250px;
+    margin: 10px 10px 50px 200px;
     font-size: 40px;
+    background-color: cadetblue;
+    border-left: 15px solid navy;
+    border-bottom: 15px solid black;
+    border-radius: 25px 75px;
 }
 h1, h2 {
     font-family: fantasy;
@@ -24,7 +28,7 @@ h1, h2 {
     border-left: 15px solid red;
     border-bottom: 15px solid yellow;
     border-radius: 25px 75px;
-    margin :0 20%;
+    margin :10px 200px 10px 10px;
 }
 .main-list li{
     border-radius: 25px 75px 10px;
@@ -43,10 +47,25 @@ h1, h2 {
 }
 
 .ingredient-list {
-    list-style-type: circle;
-    background-color: darkorange;
+    list-style-type: none;
+    background-color: darkgrey;
+    padding: 10px 20px;
+    border-left: 15px solid red;
+    border-bottom: 15px solid yellow;
+    border-radius: 25px 75px;
+    margin :10px 200px 10px 10px;
+    line-height: 2;
 }
 
+.ingredient-list li{
+    border-radius: 25px 75px 10px;
+    background-color: red;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-left: 15px solid black;
+    border-bottom: 5px solid yellow;
+}
 img {
     height: auto;
     width: 300px;
