@@ -19,13 +19,16 @@ h1, h2 {
     background-color: darkgrey;
     padding: 10px 20px;
     border-left: 15px solid red;
+    border-bottom: 15px solid yellow;
+    border-radius: 25px 75px;
     margin :0 20%;
 }
 .main-list li{
-    border-radius: 10px;
+    border-radius: 25px 75px 10px;
     background-color: red;
-    padding: 5px;
+    padding: 15px;
     margin: 5px;
+    text-align: center;
 }
 
 .main-list a {
@@ -44,7 +47,7 @@ img {
     width: 300px;
 }
 
-ol {
+.directions {
     
     list-style-type: cjk-ideographic;
     background-color: darkorange;
