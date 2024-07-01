@@ -1,54 +1,52 @@
-body{
+body {
     background-color: lightblue;
+    margin: 0 auto;
 }
+
 p {
     text-align: center;
 }
 
-h1, h2{
+h1, h2 {
     font-family: fantasy;
     color: navy;
     text-align: center;
     
 }
 
-ul.main-list {
-    list-style-type: circle;
-    background-color: darkorange;
+.main-list {
+    list-style-type: none;
+    background-color: darkgrey;
+    padding: 10px 20px;
+    border-left: 15px solid red;
+    margin :0 20%;
+}
+.main-list li{
+    border-radius: 10px;
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
 }
 
-.main-list li {
-    background-color: aliceblue;
-    text-align: left ;
-
-}
-
-ul {
-    list-style-type: circle;
-    background-color: darkorange;
-}
-
- li {
-    background-color: aliceblue;
-    text-align: left ;
-
-}
-
-a {
+.main-list a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: darkorange;
+    color: black;
     font-weight: 700;
 }
 
-img{
+.ingredient-list {
+    list-style-type: circle;
+    background-color: darkorange;
+}
+
+img {
     height: auto;
     width: 300px;
 }
 
 ol {
     
-    list-style-type: armenian;
+    list-style-type: cjk-ideographic;
     background-color: darkorange;
-    text-align: center;
-    
+    text-align: center;   
 }
